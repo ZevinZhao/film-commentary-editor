@@ -1,0 +1,4 @@
+interface:
+  display_name: "影视解说精剪"
+  short_description: "从参考拆解、深度文案和试音，到原声留白、精剪混音与成片检查"
+  default_prompt: "使用 $film-commentary-editor，按我提供的参考视频制作或精修影视解说，保留原声留白与自然的声音衔接，并沿用已确认的制作选择。"

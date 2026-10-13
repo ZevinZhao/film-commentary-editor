@@ -1,0 +1,21 @@
+{
+  "path": "voice-e.wav",
+  "name": "mandarin_warm",
+  "instruct": "三十岁左右男性的真实日常说话声，标准普通话，无地域口音。清晰干净的中音，音高适中偏明亮，平实温和，有温度而不黏腻。像在饭后给朋友讲电影，轻松自然而有思考，语速适中，偶尔轻轻强调关键词，长短句顺畅衔接。不要深沉，不要沙哑，不要气泡音，不要播音主持腔，不夸张表演。每个字音完整，末句自然放松收声。",
+  "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-VoiceDesign-6bit",
+  "language": "Chinese",
+  "duration": 13.84,
+  "sample_rate": 24000,
+  "peak": 0.8851770162582397,
+  "tail_10ms_rms": 0.00019401853205636144,
+  "elapsed_seconds": 9.299329042434692,
+  "peak_memory_gb": 7.175823565,
+  "seed": 71,
+  "speed_postprocessing": false,
+  "voice_source": "generic written description; no reference voice",
+  "sha256": "215b396e6be19f07788cb56bdb190791440e161ef10e1acba525c3415561d4b9",
+  "label": "E, approved for the Shawshank rooftop project",
+  "reference_text": "他本来可以装作没听见。可听到狱警在抱怨遗产税，安迪却放下工具，走了过去。他知道怎么省下这笔钱。只是，他想换来的，不只是一次优待。",
+  "continuation_model": "mlx-community/Qwen3-TTS-12Hz-1.7B-Base-6bit",
+  "continuation_note": "Use the self-generated reference and transcript; Base instruction control was not enabled. Seeds/config alone do not guarantee repeatable timbre."
+}
